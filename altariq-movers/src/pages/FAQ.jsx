@@ -6,6 +6,8 @@ import BelowHero from "../components/BelowHero"
 import OurWork from "../components/OurWork"
 import News from "../components/News"
 import Footer from "../components/Footer"
+import ScrollToTop from "../components/ScrollToTop"
+import FloatingMenu from "../components/FloatingMenu"
 
 const FAQ = () => {
   return (
@@ -16,6 +18,8 @@ const FAQ = () => {
       <OurWork />
       <News className="!mt-8" /> 
       <Footer />
+      <ScrollToTop />
+      <FloatingMenu />
     </div>
   )
 }

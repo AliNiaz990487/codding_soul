@@ -9,6 +9,8 @@ import ContactComponent from "../components/ContactComponent"
 import OurTeam from "../components/OurTeam"
 import News from "../components/News"
 import Footer from "../components/Footer"
+import ScrollToTop from "../components/ScrollToTop"
+import FloatingMenu from "../components/FloatingMenu"
 
 import womanImage from "../assets/images/testimonial_exp_img-1.jpg"
 import icon1 from "../assets/images/our_vision_img.webp"
@@ -119,6 +121,8 @@ const AboutUs = () => {
       <OurTeam />
       <News className="!mt-10" />
       <Footer />
+      <ScrollToTop />
+      <FloatingMenu />
     </div>
   )
 }

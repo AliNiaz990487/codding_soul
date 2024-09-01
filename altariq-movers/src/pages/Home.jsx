@@ -13,6 +13,8 @@ import GettingStarted from "../components/GettingStarted"
 import FAQ from "../components/FAQComponent"
 import News from "../components/News"
 import Footer from "../components/Footer"
+import ScrollToTop from "../components/ScrollToTop"
+import FloatingMenu from "../components/FloatingMenu"
 const Home = () => {
   return (
     <div className="overflow-x-hidden">
@@ -32,6 +34,8 @@ const Home = () => {
       <News />
       <Footer />
       {/* <div className="h-96"></div> */}
+      <ScrollToTop />
+      <FloatingMenu />
     </div>
   )
 }

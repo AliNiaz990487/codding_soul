@@ -9,6 +9,8 @@ import GettingStarted from "../components/GettingStarted"
 import FAQ from "../components/FAQComponent"
 import News from "../components/News"
 import Footer from "../components/Footer"
+import ScrollToTop from "../components/ScrollToTop"
+import FloatingMenu from "../components/FloatingMenu"
 
 const EngineUpdates = () => {
   return (
@@ -22,6 +24,8 @@ const EngineUpdates = () => {
       <FAQ />
       <News />
       <Footer />
+      <ScrollToTop />
+      <FloatingMenu />
     </div>
   )
 }
