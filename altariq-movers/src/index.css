@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer quoteButton {
+    .quote-btn.quote-btn {
+        @apply bg-primary text-white p-4 rounded-bl-2xl;
+        @apply px-8 transition-colors;
+
+        &:hover {
+            @apply bg-secondary text-white;
+        }
+    }
+
+}
+
+@layer hero {
+    .my-hero {
+        @apply relative;
+        @apply text-white font-bold;
+        @apply text-center py-32 md:py-40 lg:py-52;
+
+        &::before {
+            content: "";
+            @apply absolute top-0 left-0 w-full h-full;
+            @apply bg-secondary opacity-80;
+        }
+    }
+}
+
+.custom-dots li.slick-active .custom-dot {
+    @apply bg-primary;
+}
+
+.small-container {
+    @apply w-full md:w-[800px] mx-auto
+}
+
+.image-overlay {
+    @apply relative;
+
+    &::before {
+        content: "";
+        @apply absolute top-0 left-0 w-full h-full;
+        @apply bg-secondary opacity-80;
+    }
+}
+
+.side-aligned-container {
+    /* width: 100vw; */
+    max-width: 100vw;
+}
+
+@media (min-width: 640px) {
+    .side-aligned-container {
+        max-width: calc(100vw - ((100vw - 640px) / 2));
+        /* background-color: blue; */
+    }
+}
+
+@media (min-width: 768px) {
+    .side-aligned-container {
+        max-width: calc(100vw - ((100vw - 768px) / 2));
+        /* background-color: blue; */
+    }
+}
+
+@media (min-width: 1024px) {
+    .side-aligned-container {
+        max-width: calc(100vw - ((100vw - 1024px) / 2));
+        /* background-color: blue; */
+    }
+}
+
+@media (min-width: 1280px) {
+    .side-aligned-container {
+        max-width: calc(100vw - ((100vw - 1280px) / 2));
+        /* background-color: blue; */
+    }
+}
+
+@media (min-width: 1540px) {
+    .side-aligned-container {
+        max-width: calc(100vw - ((100vw - 1540px) / 2));
+        /* background-color: blue; */
+    }
+}
