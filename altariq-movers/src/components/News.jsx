@@ -1,8 +1,8 @@
 import React from 'react'
 
-const News = () => {
+const News = ({className}) => {
   return (
-    <div className="container mt-[38rem] md:mt-36">
+    <div className={`container mt-[38rem] md:mt-36 ${className}`}>
       <div data-aos="fade-up" className="text-center">
         <p className="uppercase text-secondary text-xl">latest news</p>
         <p className="capitalize py-6 pb-12 text-3xl font-bold">Want To Learn More About your Moving Budget</p>

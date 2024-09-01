@@ -3,6 +3,9 @@ import sliderImage1 from "../assets/images/testimonial_client_02.png"
 import sliderImage2 from "../assets/images/testimonial_client_img.jpg"
 import sliderImage3 from "../assets/images/about_video_img.jpg"
 import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import { FaQuoteLeft } from 'react-icons/fa'
 
 const data = [

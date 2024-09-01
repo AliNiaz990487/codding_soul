@@ -46,7 +46,7 @@ const Nav = () => {
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
             {/* Navbar */}
-            <div className="navbar bg-base-300 w-full flex-row-reverse lg:flex-row">
+            <div className={`navbar w-full flex-row-reverse lg:flex-row transition-colors ${scrolled ? "bg-base-300" : "bg-white"}`}>
               <div className="flex-none lg:hidden">
                 <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn bg-primary text-primary-content hover:border-primary hover:text-primary hover:bg-transparent transition-colors">
                   <svg

@@ -14,7 +14,7 @@ const FAQ = () => {
       <Hero2 title="FAQ" bgImage={image} />
       <BelowHero className="md:-mt-12" />
       <OurWork />
-      <News /> 
+      <News className="mt-8" /> 
       <Footer />
     </div>
   )
