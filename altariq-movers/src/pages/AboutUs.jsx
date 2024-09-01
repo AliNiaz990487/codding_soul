@@ -117,7 +117,7 @@ const AboutUs = () => {
       <ContactComponent />
       <OurProjects />
       <OurTeam />
-      <News className="mt-10" />
+      <News className="!mt-10" />
       <Footer />
     </div>
   )

@@ -14,7 +14,7 @@ const FAQ = () => {
       <Hero2 title="FAQ" bgImage={image} />
       <BelowHero className="md:-mt-12" />
       <OurWork />
-      <News className="mt-8" /> 
+      <News className="!mt-8" /> 
       <Footer />
     </div>
   )

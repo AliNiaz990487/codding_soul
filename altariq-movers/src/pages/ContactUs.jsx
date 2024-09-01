@@ -17,7 +17,7 @@ const ContactUs = () => {
       {/* component */}
       <ContactComponent />
       <GettingStarted />
-      <News className="mt-8" />
+      <News className="!mt-8" />
       <Footer />
     </div>
   )
